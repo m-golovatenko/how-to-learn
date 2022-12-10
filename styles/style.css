@@ -265,6 +265,8 @@
 }
 
 .kaufman__triangle {
+  width: 877px;
+  height: 877px;
   position: absolute;
   right: -210px;
 }
@@ -325,8 +327,10 @@
   justify-content: space-between;
 }
 
-.footer__social-ikon {
+.footer__social-icon {
   margin-right: 10px;
+  width: 16px;
+  height: 16px;
 }
 
 .footer__column-link {
