@@ -191,19 +191,19 @@
 }
 
 /*FEYMAN*/
-.feyman {
+.feynman {
   height: 890px;
   background-color: #f2f2f2;
   display: flex;
   align-items: center;
   flex-direction: column;
   position: relative;
-  background-image: url(/images/feynman.png);
+  background-image: url(../images/feynman.png);
   background-repeat: no-repeat;
   background-position: left bottom;
 }
 
-.feyman__title {
+.feynman__title {
   text-align: center;
   width: 648px;
   line-height: 1.15;
@@ -214,7 +214,7 @@
   z-index: 1;
 }
 
-.feyman__subtitle {
+.feynman__subtitle {
   line-height: 51px;
   font-size: 36px;
   font-weight: 400; /*normal*/
@@ -222,7 +222,7 @@
   z-index: 1;
 }
 
-.feyman__link {
+.feynman__link {
   position: absolute;
   top: 50%;
   right: 48px;
