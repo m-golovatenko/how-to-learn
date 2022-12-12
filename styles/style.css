@@ -13,14 +13,12 @@
 
 .logo {
   width: 228px;
-  height: 32px;
 }
 
 .logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
-  z-index: 2;
 }
 
 .header {
@@ -38,15 +36,17 @@
 }
 
 .header__title {
+  margin: 0;
   margin-left: 64px;
   font-size: 102px;
   font-weight: 600;
   line-height: 96px;
-  width: 730px;
+  max-width: 730px;
   z-index: 2;
 }
 
 .header__subtitle {
+  margin: 0;
   line-height: 25px;
   font-size: 18px;
   font-weight: 400; /*normal*/
@@ -67,6 +67,11 @@
   color: #054292;
 }
 
+.link:focus {
+  outline: 2px solid #054292;
+  outline-offset: 3px;
+}
+
 .header__main-illustration {
   position: absolute;
   bottom: 0;
@@ -74,6 +79,8 @@
   width: 765px;
   height: 608px;
   z-index: 1;
+  object-fit: contain;
+  object-position: right bottom;
 }
 
 .header__square-pic {
@@ -83,6 +90,7 @@
   position: absolute;
   top: 64px;
   right: 0;
+  z-index: auto;
 }
 
 /*MAIN*/
@@ -112,7 +120,7 @@
 
 .two-columns__main-text {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   width: 80%;
   min-width: 784px;
 }
@@ -122,11 +130,11 @@
   font-size: 24px;
   font-weight: 400; /*normal*/
   margin: 0;
+  margin-bottom: 30px;
 }
 
-.two-columns__paragraph:nth-child(1),
-.two-columns__paragraph:nth-child(2) {
-  margin-bottom: 30px;
+.two-columns__paragraph:last-child {
+  margin-bottom: 0px;
 }
 
 .two-columns__span-accent {
@@ -168,6 +176,9 @@
   flex-wrap: wrap;
   justify-content: space-between;
   width: 1100px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 .table__cell {
@@ -192,7 +203,7 @@
 
 /*FEYMAN*/
 .feynman {
-  height: 890px;
+  min-height: 890px;
   background-color: #f2f2f2;
   display: flex;
   align-items: center;
@@ -269,6 +280,8 @@
   height: 877px;
   position: absolute;
   right: -210px;
+  background: url(../images/kaufman-triangle.svg) no-repeat right bottom /
+    contain;
 }
 
 /*FOOTER*/
@@ -296,8 +309,6 @@
 }
 
 .footer__column_content_copyright {
-  display: flex;
-  flex-direction: column;
   justify-content: space-between;
   flex-basis: 711px;
 }
@@ -325,6 +336,12 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.footer__column-links-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 .footer__social-icon {
