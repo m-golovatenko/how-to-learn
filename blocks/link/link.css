@@ -1,0 +1,14 @@
+.link {
+  color: #2f80ed;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.link:hover {
+  color: #054292;
+}
+
+.link:focus {
+  outline: 2px solid #054292;
+  outline-offset: 3px;
+}
