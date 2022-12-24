@@ -1,15 +1,18 @@
-.link {
+.khan__buy-link {
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: 400; /*normal*/
   color: #2f80ed;
   text-decoration: none;
   transition: all 0.3s ease;
 }
 
-.link:hover {
+.khan__buy-link:hover {
   color: #2572d6;
   opacity: 0.7;
 }
 
-.link:focus {
+.khan__buy-link:focus {
   outline: 2px solid #054292;
   outline-offset: 3px;
 }
