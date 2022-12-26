@@ -3,6 +3,7 @@
   height: 877px;
   position: absolute;
   right: -210px;
+  top: 0;
   background: url(../../../images/kaufman-triangle.svg) no-repeat right bottom /
     contain;
   z-index: auto;

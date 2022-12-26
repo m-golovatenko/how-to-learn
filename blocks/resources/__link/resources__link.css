@@ -1,3 +1,14 @@
 .resources__link {
   margin: 0;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.resources__link:hover {
+  opacity: 0.7;
+}
+
+.resources__link:focus {
+  outline: 2px solid #054292;
+  outline-offset: 3px;
 }
