@@ -7,11 +7,11 @@
   <meta name="description" content="первый проект Маши Головатенко на Яндекс.Практикуме">
   <meta name="keywords" content="самообучение, техники обучения, метод Феймана, принципы обучения">
   <meta name="author" content="Маша Головатенко">
-  <link rel="stylesheet" href="root/root.css">
+  <link rel="stylesheet" href="page/index.css">
   <title>Научиться учиться</title>
 </head>
 
-<body class="page">
+<body class="root">
   <header class="header">
     <img class="logo logo_place_header" alt="Логотип Яндекс Практикума." src="./images/logo_place_header.svg">
 
@@ -30,7 +30,7 @@
   </header>
 
   <main class="content">
-    <section class="description">
+    <div class="description"> <!--до этого использовался section, но валидатор с ним не пропускал-->
       <article class="two-columns">
         <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
         <div class="two-columns__main-text">
@@ -54,7 +54,7 @@
           </p>
         </div>
       </article>
-    </section>
+    </div>
 
     <section class="techniques">
       <h2 class="section-title">Техники обучения</h2>
@@ -111,7 +111,7 @@
       </div>
     </section>
 
-    <section class="oakley">
+    <div class="oakley"> <!--до этого использовался section, но валидатор с ним не пропускал-->
       <article class="two-columns">
         <h2 class="two-columns__brief">История Барбары Оакли.</h2>
         <div class="two-columns__main-text">
@@ -124,7 +124,7 @@
           </p>
         </div>
       </article>
-    </section>
+    </div>
 
     <section class="feynman">
       <h2 class="feynman__title">Метод Фейнмана</h2>
@@ -189,7 +189,7 @@
       </ul>
     </section>
 
-    <section class="khan">
+    <div class="khan"> <!--до этого использовался section, но валидатор с ним не пропускал-->
       <article class="khan__container">
         <p class="khan__author">Салман Хан</p>
         <h2 class="khan__title">Весь мир — школа</h2>
@@ -205,7 +205,7 @@
             target="_blank" rel="nofollow noreferrer">Купить книгу &rarr;</a>
         </div>
       </article>
-    </section>
+    </div>
 
     <section class="kaufman">
       <h2 class="section-title section-title_theme_dark">
